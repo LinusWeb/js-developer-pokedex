@@ -4,21 +4,20 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #dadfe8;
 }
 
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #dadfe8;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+.content h1 {
+    margin: 0px;
 }
+
+ a {
+    text-decoration: none;
+ }
